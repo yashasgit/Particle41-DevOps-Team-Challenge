@@ -1,5 +1,5 @@
 Terraform and Cloud: create the infrastructure to host your container.
-
+REQUIREMENT:
 Using Terraform, create the following infrastructure in AWS (or equivalent):
 •	If server-based:
 o	A VPC with 2 public and 2 private subnets.
@@ -82,6 +82,7 @@ Step 2: Clone the Repository
 Clone this repository to your local machine:
 git clone https://github.com/yashasgit/Particle41-DevOps-Team-Challenge.git 
 cd Particle41-DevOps-Team-Challenge
+cd terraform
 Step 3: Initialize Terraform
 Initialize Terraform to download the required providers:
 terraform init
@@ -101,7 +102,7 @@ After applying the configuration, Terraform will output the following:
 1.	EKS Cluster Name:
 eks_cluster_name = "my-eks-cluster"
 2.	ALB DNS Name:
-alb_dns_name = "app-load-balancer-1234567890.ap-south-1.elb.amazonaws.com"
+alb_dns_name = "app-load-balancer-229508187.ap-south-1.elb.amazonaws.com"
 You can access your application using the ALB DNS name.
 ________________________________________
 Clean Up
